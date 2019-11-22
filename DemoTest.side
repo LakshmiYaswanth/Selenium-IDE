@@ -1,0 +1,85 @@
+{
+  "id": "ffa13be0-558c-47ce-b031-927b184eac70",
+  "version": "2.0",
+  "name": "DemoTest",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "4fe4b325-abf7-456f-967e-ed67b492b10a",
+    "name": "GoogleJavaTpoint",
+    "commands": [{
+      "id": "bfa04faf-5981-4b69-8ef1-d089146eed35",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "618daa4d-1383-41e4-8b3b-1fd03d7900c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ee1978a-5278-4bac-9896-6a466315cc91",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e6b862-5524-4825-83a9-abd1dd43b0bc",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "java"
+    }, {
+      "id": "be1648f7-445e-4c53-b676-d9a57e2e9238",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl b",
+      "targets": [
+        ["css=.sbhl b", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[2]/div[2]/ul/li[2]/div/div[2]/div/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'tpoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63d82848-ab80-47e2-8618-7198985b3fc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g > div > div > .rc .S3Uucc",
+      "targets": [
+        ["css=.g > div > div > .rc .S3Uucc", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Javatpoint: Tutorials List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "43975c72-4b6c-4315-bff5-19797fb1b948",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4fe4b325-abf7-456f-967e-ed67b492b10a"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
