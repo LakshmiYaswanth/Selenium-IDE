@@ -70,3 +70,6 @@ Selenium is not just a single tool but a suite of softwares, each with a differe
 2. Selenium Remote Control (Now Deprecated)
 3. WebDriver
 4. Selenium Grid
+
+                                     # SELENIUM IDE
+                                      
