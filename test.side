@@ -1,0 +1,119 @@
+{
+  "id": "e4a84dda-3b24-4b27-a43f-a1dfcc887491",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.javatpoint.com",
+  "tests": [{
+    "id": "4828eed7-fd6f-4586-b08c-803a04ec01ac",
+    "name": "record",
+    "commands": [{
+      "id": "cc34fc68-5b43-41b7-a336-a1de4505ad5a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bda7f031-94f6-474d-bd12-5c7b3bb4d91d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d6fea12-964e-41ee-a34e-d6dff45ac7d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Java",
+      "targets": [
+        ["linkText=Java", "linkText"],
+        ["css=ul > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Java')]", "xpath:link"],
+        ["xpath=//div[@id='link']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'java-tutorial')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Java')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea3e805d-5137-4138-b203-27dd90391bd5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,52.79999923706055)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9abbbf5e-9ed8-4f9b-9079-72a70bf22bf6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test it Now",
+      "targets": [
+        ["linkText=Test it Now", "linkText"],
+        ["css=.testit > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Test it Now')]", "xpath:link"],
+        ["xpath=//div[@id='city']/table/tbody/tr/td/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://compiler.javatpoint.com/opr/test.jsp?filename=Simple')]", "xpath:href"],
+        ["xpath=//td/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test it Now')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4457",
+      "windowTimeout": 2000
+    }, {
+      "id": "4c455b99-7e89-47a9-9457-bfb01a66341d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4457}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37d77257-3a67-439c-b964-665fcc0977f7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1328a7cf-26ba-4da0-be8e-8e97e2caea2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=bt2",
+      "targets": [
+        ["id=bt2", "id"],
+        ["css=#bt2", "css:finder"],
+        ["xpath=//input[@id='bt2']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56e2d274-e659-4cd5-8c22-ec9858716eef",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > p",
+      "targets": [
+        ["css=div:nth-child(2) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Output')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eeb7dc1-dd72-482e-9557-17fc6532e8fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "95061600-a12e-4792-b6d3-d020c45cd8e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4828eed7-fd6f-4586-b08c-803a04ec01ac"]
+  }],
+  "urls": ["https://www.javatpoint.com/"],
+  "plugins": []
+}
