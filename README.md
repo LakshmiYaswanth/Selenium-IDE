@@ -59,11 +59,11 @@ controls the execution of tests and compares the actual result against the expec
           2.Operating Systems: Android, iOS, Windows, Linux, Mac, Solaris.
           3.Browsers: Google Chrome, Mozilla Firefox, Internet Explorer, Edge, Opera, Safari, etc.
 # selenium limitation
-  .Selenium does not support automation testing for desktop applications.
-  .Selenium requires high skill sets in order to automate tests more effectively.
-  .Since Selenium is open source software, you have to rely on community forums to get your technical issues resolved.
-  .We cant perform automation tests on web services like SOAP or REST using Selenium.
-  .We should know at least one of the supported programming languages to create tests scripts in Selenium WebDriver.  
+  . Selenium does not support automation testing for desktop applications.
+  . Selenium requires high skill sets in order to automate tests more effectively.
+  . Since Selenium is open source software, you have to rely on community forums to get your technical issues resolved.
+  . We cant perform automation tests on web services like SOAP or REST using Selenium.
+  . We should know at least one of the supported programming languages to create tests scripts in Selenium WebDriver.  
 # selenium Tool suit
 Selenium is not just a single tool but a suite of softwares, each with a different approach to support automation testing. It comprises of four major components which include:
 1. Selenium Integrated Development Environment (IDE)
